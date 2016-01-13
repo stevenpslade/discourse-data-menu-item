@@ -2,7 +2,7 @@ export default {
   name: "data-menu-item",
 
   initialize() {
-    alert('alert boxes are annoying!');
+    console.log('alert boxes are annoying!');
           // $.ajax("/custom_group_names", {
           //   type: 'GET'
           //   // data: {custom_group_names: true, group_names: groups}
@@ -13,7 +13,6 @@ export default {
           // });
   }
 };
-
   // initialize: function(container) {
   //   $(document).ready(function() {
   //     var source                 = $("#data-menu-item").html();
